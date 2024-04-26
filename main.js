@@ -16,3 +16,15 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
+
+//-->Exercise 2
+
+//first solution
+
+let stair = "#";
+let reps = 8;
+
+while (stair.length <= reps) {
+    console.log(stair);
+    stair = stair + "#";
+}
